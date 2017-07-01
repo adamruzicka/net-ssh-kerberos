@@ -17,10 +17,10 @@ module Net; module SSH; module Kerberos
     USERAUTH_GSSAPI_ERROR             = 64
     USERAUTH_GSSAPI_ERRTOK            = 65
     USERAUTH_GSSAPI_MIC               = 66
-    
+
     # GSSAPI constant OID(s)
-	  GSS_KRB5_MECH = "\x2a\x86\x48\x86\xf7\x12\x01\x02\x02"
-	  GSS_KRB5_MECH_USER2USER = "\x2a\x86\x48\x86\xf7\x12\x01\x02\x02\x03"
+    GSS_KRB5_MECH                     = "\x2a\x86\x48\x86\xf7\x12\x01\x02\x02"
+    GSS_KRB5_MECH_USER2USER           = "\x2a\x86\x48\x86\xf7\x12\x01\x02\x02\x03"
   end
 end; end; end
 
